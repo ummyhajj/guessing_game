@@ -6,9 +6,9 @@ Phil, our hypothetical client has been enjoying the game we built for him. Unfor
 
 Your task is provide a fix for this such that when phill presses CTR + C, the game can exit cleanly with no errors. 
 
-The problem occurs because getUserInput() throws an exception when CTR + C is pressed so you have to handle this exception and break out of the loop. This will effectively get us out of the while loop and the game can exit cleanly. I have annotated the part of the code where the changes need to be made.
+The problem occurs because getUserInput() throws an exception when CTR + C is pressed so you have to handle this exception and break out of the loop. This will effectively get us out of the while loop and the game can exit cleanly.
 
-If you solve this proble you'll learn two things:
+If you solve this problem you'll learn two things:
 
 1. How to break out of loops 
 2. Exception handling in python. (Exception is just another name for errors). 
